@@ -22,6 +22,8 @@ class Solution {
         boolean foundValLessThanTarget = false;
         boolean result = false;
 
+        // another way to do this would be to start from index 0 if the first value is smaller than target and start
+        // from the last index and work backwards if the first value is greater than target
         for (int num : nums) {
             if (num == target) {
                 result = true;
