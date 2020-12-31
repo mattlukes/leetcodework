@@ -31,7 +31,7 @@ class Solution {
         int newCellVal;
 
         if (rowSize == 1
-                && columnSize == 1) {
+         && columnSize == 1) {
             newBoard[0][0] = 0;
         }
         else {
@@ -95,11 +95,11 @@ class Solution {
 
         if (liveCell) {
             if (liveNeighbors == 2
-                    || liveNeighbors == 3) {
+             || liveNeighbors == 3) {
                 newCellValue = 1;
             }
         }
-        else if (liveNeighbors == 3){
+        else if (liveNeighbors == 3) {
             newCellValue = 1;
         }
 
